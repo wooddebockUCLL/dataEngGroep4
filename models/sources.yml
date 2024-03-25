@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw_data
+    meta:
+      external_location: "data/{name}.csv"
+    tables:
+      - name: assessments
+      - name: courses
+      - name: studentAssessment
+      - name: studentInfo
+      - name : vle
+      - name: studentRegistration
+      - name: studentVle
+      
